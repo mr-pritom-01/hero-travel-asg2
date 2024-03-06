@@ -1,0 +1,54 @@
+@media screen and (max-width: 576px) {
+  nav,
+  .banner-form,
+  .popular-tours,
+  .simple-perfect-place,
+  .form-savings {
+    flex-direction: column;
+  }
+  nav a {
+    margin-left: 20px;
+  }
+  .banner-container {
+    margin: auto;
+    padding: 50px 5px;
+    width: 100%;
+  }
+  .banner-container > form {
+    margin: auto;
+    max-width: 500px;
+  }
+  .banner-container input {
+    width: 300px;
+  }
+
+  .popular-tours,
+  .deal-container,
+  .simple-perfect-place {
+    margin: 30px 20px;
+  }
+  .popular-tours-text,
+  .popular-tours-image,
+  .place-image {
+    width: 100%;
+  }
+  .deals {
+    padding: 20px;
+    justify-content: center;
+  }
+  .details {
+    width: 110%;
+    margin-top: 250px;
+  }
+
+  .newsletter-form, .form-savings {
+    width: 100%;
+    margin: 0;
+  }
+  .form-savings img,
+  .newsletter-image {
+    width: 100%;
+    margin: 20px 0px;
+    padding: 0px 10px;
+  }
+}

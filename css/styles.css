@@ -1,0 +1,327 @@
+/* google fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+/* overall styles  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* common shared styles  */
+:root {
+  --primary-orange-color: #ff5400;
+  --primary-gray-color: #5a5a5d;
+  --primary-black-color: #131318;
+  --primary-white-color: #fff;
+}
+a:hover {
+  box-shadow: 3px 3px 8px;
+  border-radius: 8px;
+}
+
+/* common shared styles  */
+
+.btn-primary {
+  border-radius: 8px;
+  background: var(--primary-orange-color);
+
+  color: var(--primary-white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 800;
+  border: none;
+  padding: 16px 65px;
+}
+
+.paragraph {
+  color: var(--primary-gray-color);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.primary-header {
+  color: var(--primary-black-color);
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+
+/** header section  **/
+
+/* nav bar styles  */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  height: 130px;
+  margin-bottom: 20px;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
+}
+.nav-header img {
+  margin-right: 20px;
+}
+nav span,
+#footer span {
+  color: var(--primary-orange-color);
+}
+nav li {
+  list-style: none;
+  border-radius: 8px;
+}
+nav a {
+  color: var(--primary-gray-color);
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 5px 10px;
+  margin-left: 45px;
+}
+
+/* banner section  */
+
+.banner-container {
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("/Images/Group13.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: auto 120px;
+  text-align: center;
+  align-items: center;
+
+  border-radius: 12px;
+  padding: 110px 270px;
+  text-align: center;
+  align-items: center;
+}
+.banner-container > h1 {
+  color: var(--primary-white-color);
+  font-size: 4rem;
+  font-weight: 800;
+}
+.banner-container > p {
+  color: var(--primary-white-color);
+  max-width: 676px;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.banner-container input {
+  padding: 16px 65px 16px 18px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 800;
+  border: none;
+  border-radius: 8px;
+  width: 210px;
+  margin: auto;
+  text-align: left;
+}
+.banner-form {
+  display: flex;
+  gap: 25px;
+  margin: auto;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+
+/* our populer tour part  */
+
+.popular-tours {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 130px;
+  gap: 30px;
+}
+.popular-tours-text {
+  width: 50%;
+}
+.popular-tours-text p {
+  max-width: 575px;
+  padding: 30px 0px;
+}
+.popular-tours-text li {
+  max-width: 510px;
+  padding-left: 10px;
+}
+.popular-tours-image {
+  width: 50%;
+  text-align: right;
+}
+.popular-tours-image img {
+  width: 100%;
+}
+
+/* deals & discount part  */
+
+.deal-container {
+  margin: 70px 120px;
+  text-align: center;
+}
+.deal-container-text {
+  padding-bottom: 30px;
+}
+.deals {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 7% 10%;
+  border-radius: 18px;
+}
+.deal-one {
+  background-image: url("/images/Group39.png");
+}
+.deal-two {
+  background-image: url("/images/Group40.png");
+  margin: 30px 0;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.top-line {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.details {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+  width: 60%;
+  height: 65%;
+  padding: 50px;
+  line-height: 55px;
+}
+.details h3 {
+  font-weight: 800;
+}
+.details h4 {
+  color: var(--primary-orange-color);
+  font-weight: 800;
+}
+.deal-container button {
+  padding: 15px 35px;
+  margin: auto;
+  opacity: 100%;
+}
+.deal-container i {
+  color: var(--primary-orange-color);
+}
+
+/* a simple perfect place to get lost section  */
+
+.simple-perfect-place {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 140px;
+  align-items: center;
+}
+
+.place-text {
+  max-width: 435px;
+}
+.place-text div,
+.place-text p {
+  margin: 40px 0px;
+  line-height: 30px;
+}
+.place-image {
+  width: 60%;
+}
+.place-image > img {
+  width: 100%;
+}
+
+/* newsletter,, from for savings  */
+
+.form-savings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 140px;
+}
+.newsletter-form {
+  max-width: 475px;
+  padding: 80px 50px;
+  border: 1.5px solid var(--primary-orange-color);
+  border-radius: 12px;
+  width: 100%;
+}
+.newsletter-form > h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.newsletter-form > p {
+  padding: 30px 0;
+}
+.newsletter-form form,
+.newsletter-form input {
+  width: 100%;
+  border: none;
+  line-height: 30px;
+}
+.btm-inp {
+  background: rgb(240, 235, 235);
+  padding: 12px 25px;
+  border-radius: 8px;
+}
+.form-savings img,
+.newsletter-image {
+  width: 75%;
+  margin: auto;
+  text-align: right;
+}
+
+/* footer sections  */
+#footer {
+  background: rgba(19, 19, 24, 0.05);
+  min-height: 520px;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  padding-top: 80px;
+}
+#footer p {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px;
+}
+#footer i {
+  font-size: 2rem;
+  margin-left: 25px;
+  padding-bottom: 60px;
+}
+.last-text {
+  padding-top: 60px;
+  border-top: 1px solid rgba(19, 19, 24, 0.1);
+  max-width: 60%;
+  margin: auto;
+}
