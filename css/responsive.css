@@ -24,7 +24,8 @@
 
   .popular-tours,
   .deal-container,
-  .simple-perfect-place {
+  .simple-perfect-place,
+  .destination-img-container {
     margin: 30px 20px;
   }
   .popular-tours-text,
@@ -39,6 +40,10 @@
   .details {
     width: 110%;
     margin-top: 250px;
+  }
+
+  .row-1, .row-2, .row-3 {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   .newsletter-form, .form-savings {
