@@ -225,7 +225,7 @@ nav a {
       rgba(2, 2, 2, 0.26),
       rgba(0, 0, 0, 0.609)
     ),
-    url("/images/Rectangle 5.png");
+    url("../images/Rectangle 5.png");
 }
 .img-2 {
   background-image: linear-gradient(
@@ -233,7 +233,7 @@ nav a {
       rgba(2, 2, 2, 0.26),
       rgba(0, 0, 0, 0.609)
     ),
-    url("/images/Rectangle 8.png");
+    url("../images/Rectangle 8.png");
 }
 .img-3 {
   background-image: linear-gradient(
@@ -241,7 +241,7 @@ nav a {
       rgba(2, 2, 2, 0.26),
       rgba(0, 0, 0, 0.609)
     ),
-    url("/images/Rectangle 6.png");
+    url("../images/Rectangle 6.png");
 }
 .img-4 {
   background-image: linear-gradient(
@@ -249,7 +249,7 @@ nav a {
       rgba(2, 2, 2, 0.26),
       rgba(0, 0, 0, 0.609)
     ),
-    url("/images/Rectangle 7.png");
+    url("../images/Rectangle 7.png");
 }
 .img-5 {
   background-image: linear-gradient(
@@ -257,7 +257,7 @@ nav a {
       rgba(2, 2, 2, 0.26),
       rgba(0, 0, 0, 0.609)
     ),
-    url("/images/Rectangle 9.png");
+    url("../images/Rectangle 9.png");
 }
 .img-6 {
   background-image: linear-gradient(
@@ -265,7 +265,7 @@ nav a {
       rgba(2, 2, 2, 0.26),
       rgba(0, 0, 0, 0.609)
     ),
-    url("/images/Rectangle 11.png");
+    url("../images/Rectangle 11.png");
 }
 .img-7 {
   background-image: linear-gradient(
@@ -273,7 +273,7 @@ nav a {
       rgba(2, 2, 2, 0.26),
       rgba(0, 0, 0, 0.609)
     ),
-    url("/images/Rectangle 10.png");
+    url("../images/Rectangle 10.png");
 }
 
 /* deals & discount part  */
